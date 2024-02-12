@@ -1,15 +1,9 @@
-unstructured
-tiktoken
+ctransformers==0.2.5
+sentence-transformers==2.2.2
 pinecone-client
+langchain==0.0.22
+flask
 pypdf
-openai
-langchain
-pandas
-numpy
 python-dotenv
-google-cloud-aiplatform
-ipykernel
-google-generativeai
-langchain-google-vertexai
-sentence-transformers
-ctransformers
+#langchain-community
+-e .
