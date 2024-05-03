@@ -35,5 +35,9 @@ pc = Pinecone(
 )
 index_name="medical-bot" 
 
+from langchain.text_splitter import CharacterTextSplitter
+from langchain_community.vectorstores import Pinecone
+from langchain.vectorstores.pinecone import Pinecone
+
 #Creating Embeddings for Each of The Text Chunks & storing
 docsearch=Pinecone.from_texts([t.page_content for t in text_chunks], embeddings, index_name=index_name)

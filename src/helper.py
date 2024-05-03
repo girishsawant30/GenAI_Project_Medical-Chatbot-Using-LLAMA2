@@ -26,5 +26,5 @@ def text_split(extracted_data):
 
 #download embedding model
 def download_hugging_face_embeddings():
-    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2") #384 Dimensions
     return embeddings
